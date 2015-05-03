@@ -55,6 +55,7 @@ void AddressBook::addContact(std::string name, int phone, std::string group){
 		tail = node;
 		AddressBook::addContactToGroup(name, group);
 	}
+	totContact++;
 }
 
 /*
