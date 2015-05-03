@@ -44,7 +44,7 @@ public:
 private:
     void printContacts(ContactNode *node);
     void printFavorites(ContactNode *node);
-
+	int totCount=0;
 	ContactNode *head;
 	ContactNode *tail;
 	std::vector<std::string> GroupNames;
