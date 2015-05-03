@@ -147,6 +147,7 @@ void AddressBook::printContacts(ContactNode *node)
 			AddressBook::printContacts(node->next);
 		}
     }
+    cout<<"Number of Contacts: "<<totContact<<endl;
 }
 
 /*
